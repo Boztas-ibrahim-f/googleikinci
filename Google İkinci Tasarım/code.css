@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    
+}
+/* Üst bölge butonları */
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header .gmail {
+    display: block;
+    padding: 0 10px;  
+}
+.header .gmail a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+      
+}
+.header .gmail a:hover {
+    text-decoration: underline;
+}
+.header .görseller {
+display: inline-block;
+padding: 0 10px;
+}
+.header .görseller a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+}
+.header .görseller a:hover {
+    text-decoration: underline;
+}
+
+.header .conteiner  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: 10px;
+}
+.header .conteiner .menu {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .conteiner .menu a  {
+    display: flex;
+    box-sizing: content-box;
+    height: 50%;
+    width: 50%;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.menu a img {
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.header .conteiner .menu a:hover {
+    text-decoration: overline;
+    cursor: pointer;
+    background-color: rgb(236, 231, 231);
+    border: 50%;
+    border-radius: 50%;
+}
+
+.header .conteiner .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    
+}
+.header .conteiner .login a {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+
+}
+
+
+.header .conteiner .login:hover {
+    border-radius: 50%;
+    background-color: rgb(211, 214, 214);
+}
+/* Logo tasarımı için olan yer */
+.midle {
+    display: flex;
+    min-height: 300px;
+    align-items: end;
+    justify-content: center;
+}
+
+/* Arama çubuğu tasarımı */
+
+body .share {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+}
+.share input {
+    height: 50px;
+    width: 600px;
+    border-radius: 50px 50px ;
+    background-color: transparent;
+}
+
+
+.share #ara {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 10px;
+    height: 35px;
+    width: 500px;
+    border: none;
+    resize: none;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.share #ara:focus {
+    outline: none;
+}
+
+i {
+    background: url(icons/magnifier.png);
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    left: 400px;
+    top: 35px;
+}
+.share .buton1 {
+    position: absolute; 
+    height: 35px;
+    bottom: 70px;
+    left: 38%;
+    padding: 0px 16px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: rgb(192, 191, 191);
+}
+
+.share .buton2 {
+    position: absolute;
+    height: 35px;
+    bottom: 70px;
+    right: 37%;
+    padding: 0px 16px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: rgb(192, 191, 191);
+}
+.bosalan {
+    height: 341px;
+}
+/* Alt alan bölümü */
+.fotter .konum {
+    display: flex;
+    padding: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 207, 207);
+
+}
+.fotter .alt {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(207, 207, 207);
+}
+.fotter .alt a {
+    padding: 15px;
+    color: black; 
+}
+.alt a:nth-of-type(5){
+    position: relative;
+    left: 730px;
+}
+
+.alt a:nth-of-type(6){
+    position: relative;
+    left: 730px;
+}
+
+.alt a:nth-of-type(7){
+    position: relative;
+    left: 727px;
+}
+
+
+
